@@ -1,5 +1,5 @@
 import pytest
-from src.itune_api import create_app
+from src.app import create_app
 
 @pytest.fixture
 def client():
